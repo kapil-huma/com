@@ -1,0 +1,42 @@
+[
+    { "customer": "001", "environment": "dev", "tests": ["quicklinks_all" ],
+        "parameters": {
+            "quicklinks_all": {
+                "update_quicklinks": true,
+                "email_announce": ["amanda@huma.ai", "haiming@huma.ai", "ali@huma.ai", "kiana@huma.ai", "sina@huma.ai"]
+            }
+        }
+    },
+    { "customer": "008", "environment": "dev", "tests": ["quicklinks_all" ],
+        "parameters": {
+            "quicklinks_all": {
+                "update_quicklinks": true,
+                "email_announce": ["amanda@huma.ai", "haiming@huma.ai", "ali@huma.ai", "kiana@huma.ai", "sina@huma.ai"]
+            }
+        }
+    },
+    { "customer": "016", "environment": "dev", "tests": ["quicklinks_all" ],
+        "parameters": {
+            "quicklinks_all": {
+                "update_quicklinks": true,
+                "email_announce": ["amanda@huma.ai", "haiming@huma.ai", "ali@huma.ai", "kiana@huma.ai", "sina@huma.ai"]
+            }
+        }
+    },
+    { "customer": "018", "environment": "dev", "tests": ["quicklinks_all" ],
+        "parameters": {
+            "quicklinks_all": {
+                "update_quicklinks": true,
+                "email_announce": ["amanda@huma.ai", "haiming@huma.ai", "ali@huma.ai", "kiana@huma.ai", "sina@huma.ai"]
+            }
+        }
+    },
+    { "customer": "019", "environment": "dev", "tests": ["quicklinks_all" ],
+        "parameters": {
+            "quicklinks_all": {
+                "update_quicklinks": true,
+                "email_announce": ["amanda@huma.ai", "haiming@huma.ai", "ali@huma.ai", "kiana@huma.ai", "sina@huma.ai"]
+            }
+        }
+    }
+]

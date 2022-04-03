@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+huma/__init__.py
+huma/cli_init.py
+huma/helpers.py
+huma/menu.py
+huma/tests.py
+huma.egg-info/PKG-INFO
+huma.egg-info/SOURCES.txt
+huma.egg-info/dependency_links.txt
+huma.egg-info/entry_points.txt
+huma.egg-info/requires.txt
+huma.egg-info/top_level.txt

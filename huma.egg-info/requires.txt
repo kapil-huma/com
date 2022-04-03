@@ -1,0 +1,8 @@
+boto3
+requests
+huma_sdk@ git+ssh://git@github.com/humahq/huma-sdk.git@a9d03c1a2218431db6ec98912c23ad70d0cda2e3#egg=huma_sdk&subdirectory=huma_sdk
+click
+deepdiff
+Flask
+ruamel.yaml
+pygments

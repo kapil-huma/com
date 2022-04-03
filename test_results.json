@@ -1,0 +1,37 @@
+%YAML 1.2
+---
+  - cust-env: 018-dev
+    tests:
+      - class_name: front_end_exists
+        test_case_name: 018_dev_front_end_exists
+        test_description: This test tests whether or not the front-end returns a status
+          code of 200.
+        result: true
+        error: false
+        error_data:
+      - class_name: auto_suggestion_list
+        test_case_name: 018_dev_auto_suggestion_list
+        test_description: This test tests whether or not the auto suggeste list  have
+          more than 0 guggestions
+        result: true
+        error: false
+        error_data:
+      - class_name: ecs_services_status
+        test_case_name: 018_dev_ecs_services_status
+        test_description: This test tests ECS services status (desired count == runnint
+          count)
+        result: false
+        error: true
+        error_data: No Services Found or huma-server error
+      - class_name: batch_cpu_status
+        test_case_name: 018_dev_batch_cpu_status
+        test_description: This test tests Batch cpu uses
+        result: false
+        error: true
+        error_data: No data Found or huma-server error
+      - class_name: redis_connection
+        test_case_name: 018_dev_redis_connection
+        test_description: This test tests redis is running or not
+        result: false
+        error: true
+        error_data: connection/api error

@@ -1,0 +1,3 @@
+[
+    { "customer":"018", "environment": "dev", "tests":[ "quicklinks_all"] }
+]

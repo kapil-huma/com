@@ -1,0 +1,6 @@
+customer-environment,test-name,pass/fail,error data
+018-dev,018_dev_front_end_exists,pass,None
+018-dev,018_dev_auto_suggestion_list,pass,None
+018-dev,018_dev_ecs_services_status,fail,No Services Found or huma-server error
+018-dev,018_dev_batch_cpu_status,fail,No data Found or huma-server error
+018-dev,018_dev_redis_connection,fail,connection/api error

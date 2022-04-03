@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+cust-env: 008-dev
+tests:
+  - test_name: 008_dev_quicklinks
+    test_description: This test runs the first question from each quicklink group
+      with 'no cache' and reports if there was an error returned for any of the quetions.
+    error: true
+    error_data:
+      - len suggestions return payload is 0
+    result:
+      - []

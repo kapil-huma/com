@@ -1,0 +1,17 @@
+{
+  "recursive": true,
+  "expand": true,
+  "debug": true,
+  "plain-names": [
+    "/$ENVIRONMENT/HUMA_CLI_KEY",
+    "/$ENVIRONMENT/HUMA_SERVER_URL"
+  ],
+  "transformations": [
+    {
+      "action": "rename",
+      "rule": {
+        "ANALYZER_BUCKET": "HUMA_QA_JOB_S3_BUCKET"
+      }
+    }
+  ]
+}

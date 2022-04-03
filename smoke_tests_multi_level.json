@@ -1,0 +1,10 @@
+[
+    { "customer": "018", "environment": "dev", "tests": ["custom_all" ],
+        "parameters": {
+            "custom_all": {
+                "email_announce": ["amol@huma.ai"],
+                "questions": ["Compare inclusion criteria between GSK and all RSV vaccine trials 18-59y with normalization"]
+            }
+        }
+    }
+]

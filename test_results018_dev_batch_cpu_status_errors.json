@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+cust-env: 018-dev
+tests:
+  - test_name: 018_dev_ecs_services_status
+    test_description: This test tests ECS services status (desired count == runnint
+      count)
+    error: true
+    error_data: No Services Found or huma-server error
+    result:
+      - &id001 []
+  - test_name: 018_dev_batch_cpu_status
+    test_description: This test tests Batch cpu uses
+    error: true
+    error_data: No data Found or huma-server error
+    result:
+      - *id001

@@ -1,0 +1,10 @@
+[
+    { "customer": "009", "environment": "dev", "tests": ["custom_all" ],
+        "parameters": {
+            "custom_all": {
+                "email_announce": ["amol@huma.ai"],
+                "questions": ["Common inclusion criteria for RSV vaccine trials >=60y"]
+            }
+        }
+    }
+]

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: huma
+Version: 0.3.36
+Summary: Huma CLI Tool
+Author: Huma AI
+Author-email: support@humaai.com
+Maintainer: Huma AI
+Maintainer-email: support@humaai.com
+License: Proprietary
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: Proprietary
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+
+UNKNOWN
+
